@@ -1,6 +1,6 @@
-# ISWAT Team S2-06 Meeting in Oslo
+# ISWAT Team Meeting in Oslo
 
-The **International Space Weather Action Teams (ISWAT) S2-06 Meeting** will take place in the week of **September 21-25, 2026**, in Oslo, Norway.
+The **International Space Weather Action Teams (ISWAT) Meeting** will take place in the week of **September 21-25, 2026**, in Oslo, Norway.
 
 ## Introduction
 

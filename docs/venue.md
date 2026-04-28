@@ -1,9 +1,3 @@
-<style>
-  .md-typeset {
-    font-size: 1.1rem;
-  }
-</style>
-
 # Venue & Practical Information
 
 ## Meeting Location

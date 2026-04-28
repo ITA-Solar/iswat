@@ -1,8 +1,4 @@
 <style>
-  .md-typeset {
-    font-size: 1.1rem;
-  }
-
   .iframe-container {
     width: 100%;
     height: 650px;

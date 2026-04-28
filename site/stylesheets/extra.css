@@ -4,6 +4,7 @@
 
 /* --- CSS Variables --- */
 :root {
+  --md-typeset-font-size: 1.1rem;
 
   /* MkDocs Material custom primary */
   --md-primary-fg-color:        #1b3a6b;

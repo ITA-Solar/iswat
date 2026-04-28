@@ -1,66 +1,173 @@
 /* ============================================================
-   ISWAT - Space-themed MkDocs Material stylesheet
+   ISWAT - Apple-inspired, space-color stylesheet
    ============================================================ */
+
+/* --- Google Fonts: Inter for clean Apple-like typography --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* --- CSS Variables --- */
 :root {
-
   /* MkDocs Material custom primary */
   --md-primary-fg-color:        #1b3a6b;
   --md-primary-fg-color--light: #4db8ff;
   --md-primary-fg-color--dark:  #0a1628;
   --md-accent-fg-color:         #4db8ff;
+
+  /* Typography */
+  --md-text-font:               'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --md-code-font:               'SF Mono', 'Fira Code', monospace;
 }
 
-/* --- Header: single deep-space gradient bar --- */
+/* --- Apply font globally --- */
+body, .md-typeset {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Header: frosted glass effect over deep space gradient --- */
 .md-header {
-  background: linear-gradient(90deg, #0a1628 0%, #1b3a6b 55%, #0a1628 100%);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+  background: linear-gradient(135deg, #0a1628 0%, #1b3a6b 60%, #0d2547 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08), 0 4px 24px rgba(0, 0, 0, 0.4);
 }
 
 .md-header__title {
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #e8f4ff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  color: rgba(232, 244, 255, 0.95);
 }
 
-/* --- Tabs: simple solid navy, no special styling --- */
+/* --- Tabs: clean, borderless nav bar like Apple.com --- */
 .md-tabs {
-  background-color: #1b3a6b;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(13, 27, 55, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(77, 184, 255, 0.12);
+  box-shadow: none;
 }
 
 .md-tabs__list {
   margin-left: 1.5rem;
 }
 
-/* Hide the duplicate top-level nav items from the left sidebar
-   ONLY on screens wide enough to show the tab bar (≥1220px) */
+.md-tabs__link {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
+.md-tabs__link--active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+/* --- Hide the duplicate top-level nav items from the left sidebar
+   ONLY on screens wide enough to show the tab bar (≥1220px) --- */
 @media screen and (min-width: 1220px) {
   .md-nav--primary > .md-nav__list > .md-nav__item {
     display: none;
   }
 }
 
-/* --- Content: subtle h2 accent --- */
+/* --- Content: Apple-style generous whitespace and typography --- */
+.md-content {
+  max-width: 920px;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: #0a1628;
+  margin-bottom: 0.5rem;
+}
+
 .md-typeset h2 {
-  border-left: 4px solid #4db8ff;
-  padding-left: 0.6rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.015em;
   color: #1b3a6b;
-  margin-top: 2rem;
+  border-left: 3px solid #4db8ff;
+  padding-left: 0.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: #1b3a6b;
+  margin-top: 1.75rem;
+}
+
+.md-typeset p {
+  line-height: 1.75;
+  color: #2c3e50;
+}
+
+.md-typeset a {
+  color: #1a6eb5;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.md-typeset a:hover {
+  color: #4db8ff;
+}
+
+/* --- Tables: clean Apple-style --- */
+.md-typeset table:not([class]) {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.md-typeset table:not([class]) th {
+  background: #1b3a6b;
+  color: #e8f4ff;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.85rem 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* --- Admonition (tip/note boxes): Apple card style --- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* --- Footer --- */
 .md-footer {
-  background: linear-gradient(90deg, #0a1628 0%, #1b3a6b 100%);
+  background: linear-gradient(135deg, #0a1628 0%, #1b3a6b 100%);
 }
 
 .md-footer-meta {
-  background: #0a1628;
+  background: #070f1c;
 }
 
 /* --- Hide logo --- */
-.md-logo, 
+.md-logo,
 .md-header__button.md-logo {
   display: none !important;
 }

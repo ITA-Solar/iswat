@@ -23,7 +23,7 @@ theme:
 # Extensions
 markdown_extensions:
   - toc:
-      permalink: true
+      permalink: false
   - admonition
   - codehilite
   - pymdownx.arithmatex

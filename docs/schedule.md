@@ -23,7 +23,7 @@ Below is the schedule for the ISWAT Team Meeting. It will be updated as we firm 
 ---
 
 <div class="iframe-container">
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRhdEzTaUK0rMwvJhPUCOtJb2bl_RCNAQNNFN7QTbgbza41rhgeiARe5OPsDQqqVu5pMy17M21nama8/pub?embedded=true" allowfullscreen loading="lazy" title="Meeting Programme"></iframe>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRhdEzTaUK0rMwvJhPUCOtJb2bl_RCNAQNNFN7QTbgbza41rhgeiARe5OPsDQqqVu5pMy17M21nama8/pub?embedded=true" allowfullscreen loading="eager" title="Meeting Programme"></iframe>
 </div>
 
 ---

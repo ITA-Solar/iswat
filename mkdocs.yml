@@ -44,6 +44,8 @@ markdown_extensions:
 plugins:
   - search:
       enabled: false
+  - minify:
+      minify_html: true
 
 extra_css:
   - stylesheets/extra.css

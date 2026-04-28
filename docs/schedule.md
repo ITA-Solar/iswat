@@ -1,3 +1,9 @@
+<!-- Preconnect to Google Docs servers as early as possible -->
+<link rel="preconnect" href="https://docs.google.com" crossorigin>
+<link rel="dns-prefetch" href="https://docs.google.com">
+<link rel="preconnect" href="https://ssl.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+
 <style>
   .iframe-container {
     width: 100%;

@@ -171,3 +171,95 @@ body, .md-typeset {
 .md-header__button.md-logo {
   display: none !important;
 }
+
+/* --- Modern Hero & Component Extensions --- */
+.iswat-hero {
+  background: linear-gradient(135deg, #0a1628 0%, #1b3a6b 50%, #050b14 100%);
+  padding: 3.5rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(77, 184, 255, 0.15);
+}
+
+.iswat-hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(77, 184, 255, 0.1) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-size: 2.8rem !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.1 !important;
+  margin-bottom: 1rem !important;
+  background: linear-gradient(90deg, #ffffff, #bce3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #a5c9eb;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.interactive-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.interactive-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(77, 184, 255, 0.4);
+  box-shadow: 0 8px 25px rgba(77, 184, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.interactive-card h3 {
+  margin-top: 0 !important;
+  font-size: 1.1rem !important;
+  color: #4db8ff !important;
+  font-weight: 600 !important;
+}
+
+.interactive-card p {
+  color: #e8f4ff !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 0 !important;
+  line-height: 1.5 !important;
+}
+
+.dark-section {
+  background: #f8fafd;
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2.5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}

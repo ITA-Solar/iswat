@@ -24,6 +24,12 @@
   color: #e8f4ff;
 }
 
+@media screen and (min-width: 1220px) {
+  .md-header__title {
+    margin-left: 2.2rem; /* Spacing to substitute for the hidden logo */
+  }
+}
+
 /* --- Tabs: simple solid navy, no special styling --- */
 .md-tabs {
   background-color: #1b3a6b;

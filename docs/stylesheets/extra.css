@@ -24,16 +24,14 @@
   color: #e8f4ff;
 }
 
-@media screen and (min-width: 1220px) {
-  .md-header__title {
-    margin-left: -1.5rem; /* Pulling the title to the left */
-  }
-}
-
 /* --- Tabs: simple solid navy, no special styling --- */
 .md-tabs {
   background-color: #1b3a6b;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.md-tabs__list {
+  margin-left: 1.5rem;
 }
 
 /* Hide the duplicate top-level nav items from the left sidebar

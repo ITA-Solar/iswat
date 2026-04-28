@@ -1,0 +1,57 @@
+/* ============================================================
+   ISWAT - Space-themed MkDocs Material stylesheet
+   ============================================================ */
+
+/* --- CSS Variables --- */
+:root {
+  --md-typeset-font-size: 1.1rem;
+
+  /* MkDocs Material custom primary */
+  --md-primary-fg-color:        #1b3a6b;
+  --md-primary-fg-color--light: #4db8ff;
+  --md-primary-fg-color--dark:  #0a1628;
+  --md-accent-fg-color:         #4db8ff;
+}
+
+/* --- Header: single deep-space gradient bar --- */
+.md-header {
+  background: linear-gradient(90deg, #0a1628 0%, #1b3a6b 55%, #0a1628 100%);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+}
+
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #e8f4ff;
+}
+
+/* --- Tabs: simple solid navy, no special styling --- */
+.md-tabs {
+  background-color: #1b3a6b;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hide the duplicate top-level nav items from the left sidebar
+   ONLY on screens wide enough to show the tab bar (≥1220px) */
+@media screen and (min-width: 1220px) {
+  .md-nav--primary > .md-nav__list > .md-nav__item {
+    display: none;
+  }
+}
+
+/* --- Content: subtle h2 accent --- */
+.md-typeset h2 {
+  border-left: 4px solid #4db8ff;
+  padding-left: 0.6rem;
+  color: #1b3a6b;
+  margin-top: 2rem;
+}
+
+/* --- Footer --- */
+.md-footer {
+  background: linear-gradient(90deg, #0a1628 0%, #1b3a6b 100%);
+}
+
+.md-footer-meta {
+  background: #0a1628;
+}

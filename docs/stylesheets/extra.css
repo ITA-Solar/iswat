@@ -30,7 +30,7 @@ body, .md-typeset {
   background: linear-gradient(135deg, #0a1628 0%, #1b3a6b 60%, #0d2547 100%);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08), 0 4px 24px rgba(0, 0, 0, 0.4);
+  box-shadow: none;
 }
 
 .md-header__title {
@@ -131,7 +131,6 @@ body, .md-typeset {
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .md-typeset table:not([class]) th {
@@ -153,8 +152,7 @@ body, .md-typeset {
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: 12px;
-  border: none;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* --- Footer --- */

@@ -21,9 +21,6 @@
 
 # Schedule
 
-<!-- ## ISWAT Team Meeting in Oslo -->
-<!-- **Dates:** September 21–25, 2026 -->
-
 Below is the schedule for the ISWAT Team Meeting. It will be updated as we firm up the details.
 
 ---
@@ -33,4 +30,3 @@ Below is the schedule for the ISWAT Team Meeting. It will be updated as we firm 
 </div>
 
 ---
-

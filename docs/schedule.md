@@ -4,12 +4,17 @@
 <link rel="preconnect" href="https://ssl.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
 
+<!-- Preload Document to bypass standard DNS/SSL connection stalls -->
+<link rel="preload" href="https://docs.google.com/document/d/e/2PACX-1vRhdEzTaUK0rMwvJhPUCOtJb2bl_RCNAQNNFN7QTbgbza41rhgeiARe5OPsDQqqVu5pMy17M21nama8/pub?embedded=true" as="document">
+
 <style>
   .iframe-container {
     width: 100%;
     height: 650px;
     margin-bottom: 2rem;
     background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
   }
 
   .iframe-container iframe {

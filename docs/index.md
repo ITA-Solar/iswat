@@ -23,7 +23,7 @@ The meeting will cover a wide range of topics, including but not limited to:
 
 <div style="position: relative; border-radius: 8px; overflow: hidden; margin-top: 2rem;">
   <img src="https://images.unsplash.com/photo-1613567993548-b3a0d9abb736?q=80&w=1941&auto=format&fit=crop" alt="Oslo Cityscape" style="width: 100%; display: block;">
-  <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 0.2rem 1rem; color: white;">
+  <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 0.2rem 1rem; color: white; pointer-events: none;">
     <span style="font-size: 0.8rem; opacity: 1.0;">Photo credit: Oscar Daniel Rangel on Unsplash</span>
   </div>
 </div>

@@ -13,7 +13,11 @@ The goal of this meeting is to provide physical models for improved forecasts of
 
 The maximum capacity for this meeting will be 40 participants. 
 
+### Abstract submission deadline is <SOME DATE>
+
 The registration fee will include coffee, cake and a dinner. 
+
+### Registration fee 
 
 ## Topics
 

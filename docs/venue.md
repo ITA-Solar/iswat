@@ -16,6 +16,7 @@ The ISWAT Action Team meeting will be held at the **Institute of Theoretical Ast
 ## Accommodation
 
 Hotel recommendations will be provided closer to the meeting date. Please check back soon.
+### A list of a few hotels will appear here as soon as we have confirmation from the hotels - Should be before friday may 8. 
 
 ## Transportation
 

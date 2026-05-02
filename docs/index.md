@@ -11,6 +11,10 @@ As a major energy input to the terrestrial upper atmosphere, the solar spectral 
 
 The goal of this meeting is to provide physical models for improved forecasts of the spectral irradiance and accurate nowcasts of gaps in wavelength coverage.
 
+The maximum capacity for this meeting will be 40 participants. 
+
+The registration fee will include coffee, cake and a dinner. 
+
 ## Topics
 
 The meeting will cover a wide range of topics, including but not limited to:

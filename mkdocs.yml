@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Schedule: schedule.md
   - Venue: venue.md
+  - TODO: todo.md
 
 theme:
   name: 'material'

@@ -2,9 +2,9 @@
 
 ## User input
 
-Registration page
+<s>Registration page</s>
 
-Abstract submission page 
+<s>Abstract submission page </s>
  > Date?
 
 Payment page

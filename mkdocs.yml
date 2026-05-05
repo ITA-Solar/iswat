@@ -5,6 +5,9 @@ nav:
   - Home: index.md
   - Schedule: schedule.md
   - Venue: venue.md
+  - Registration: registration.md
+  - Abstract submission: abstracts.md
+  - Registered participants: participants.md
   - TODO: todo.md
 
 theme:

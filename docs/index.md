@@ -3,7 +3,7 @@
 
 # ISWAT Team Meeting in Oslo
 
-The **International Space Weather Action Teams (ISWAT) Meeting** will take place in the week of **September 21-25, 2026**, in Oslo, Norway.
+The **International Space Weather Action Team S2-06 (ISWAT) Meeting** will take place in the week of **September 21-25, 2026**, in Oslo, Norway.
 
 ## Introduction
 
@@ -11,21 +11,29 @@ As a major energy input to the terrestrial upper atmosphere, the solar spectral 
 
 The goal of this meeting is to provide physical models for improved forecasts of the spectral irradiance and accurate nowcasts of gaps in wavelength coverage.
 
-The maximum capacity for this meeting will be 40 participants. 
-
-### Abstract submission deadline is <SOME DATE>
-
-The registration fee will include coffee, cake and a dinner. 
-
-### Registration fee 
-
 ## Topics
 
-The meeting will cover a wide range of topics, including but not limited to:
+The meeting will cover a wide range of action topics,as outlined in the [ISWAT-Cospar Working Group S2-06](https://iswat-cospar.org/S2-06) description:
 
-* Analysis, modeling and prediction of coronal structure and solar wind sources.
-* Understanding coronal heating and solar wind acceleration.
-* Quantifying and forecasting irradiance inputs to ionosphere/thermosphere models.
+* Assess the current state of modeling of the solar spectral irradiance
+* Identify existing research models that could be used for this purpose
+* Evaluate how the models can be improved and transitioned to operations
+* Determine how the model output depends on assumptions about coronal heating
+* Explore how new knowledge of coronal heating can be incorporated into the models
+
+---
+
+## Capacity limit 
+Due to a capacity limit of 40 people in the meeting room, we have to put a restrcition on the maximum number of participants. Members of the ISWAT-Cospar S2-06 working group will have preference. 
+
+## Abstracts 
+Abstracts for Posters and oral presentations has to be submitted before **DATE**
+
+## Registration fee 
+A registration fee of 500 USD includes coffee, snacks, lunch and a dinner during the meeting and must be paid before **DATE**
+
+## Accomodation
+We will have a block booking at hotels in downtown Oslo. Please see [Venue](venue.md).  
 
 ---
 
